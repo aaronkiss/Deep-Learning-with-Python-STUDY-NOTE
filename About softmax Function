@@ -1,6 +1,6 @@
 softmax函数的输出值是0.0-1.0之间的实数，所以其输出值可以作为“概率”。
 再强化一下softmax函数的代码，不然这篇文字太短了(^^)
-```
+```Python
 
 def softmax(a):
     c = np.max(a)
