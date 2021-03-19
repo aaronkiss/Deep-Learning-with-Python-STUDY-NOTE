@@ -19,14 +19,4 @@ def softmax(a):
 ### 求解机器学习问题的步骤分为**学习**和**推理**两个阶段。
 ### 由于softmax函数的运算需要一定的计算机运算力，**因此推理阶段通常会省略输出层的softmax函数**。
 
-<style>
-    @import url(atom-one-dark.css);
-    def softmax(a):
-    c = np.max(a)
-    exp_a = np.exp(a - c)
-    sum_exp_a = np.sum(exp_a)
-    y = exp_a / sum_exp_a
-    
-    return y
-    
-</style>
+
